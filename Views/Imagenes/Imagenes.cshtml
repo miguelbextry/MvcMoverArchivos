@@ -1,0 +1,16 @@
+﻿
+<center>
+<form method="post" enctype="multipart/form-data">
+    <input type="file" name="archivo" class="form-control" />
+    <br />
+    <button class="btn btn-info">Subir Archivo</button>
+</form>
+    <p>@ViewData["GUARDADO"]</p>
+
+    <br />
+    <a class="btn btn-success" asp-controller="Imagenes" asp-action="MoverUbicacion1">Mover Imagen a la ubicación 1</a>
+    <a class="btn btn-success" asp-controller="Imagenes" asp-action="MoverUbicacion2">Mover Imagen a la ubicación 2</a>
+    <a class="btn btn-danger" asp-controller="Imagenes" asp-action="CopiarUbicacion1">Copiar Imagen a la ubicación 1</a>
+    <a class="btn btn-danger" asp-controller="Imagenes" asp-action="CopiarUbicacion1">Copiar Imagen a la ubicación 2</a>
+
+</center>
